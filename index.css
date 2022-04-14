@@ -47,8 +47,10 @@ body{
     background-color: rgba(0, 0, 0, 0.457);
     border-radius: 10px;
     box-shadow: -4px 7px 10px 1px rgb(147, 42, 228);
-    width: 70%;
-    margin-left: 190px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 40px;
 }
 
