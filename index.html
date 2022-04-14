@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./iconnasa.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>APOD NASA</title>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titulo">Um dia, uma foto 📷</h1>
+        <p id="sobre">Descubra o cosmos! A cada dia uma diferente imagem ou fotografia do nosso fascinante universo,
+            além de uma breve explicação escrita por profissionais de astronomia.</p>
+    </header>
+
+
+    <main>
+        <div class="video">
+            <video src="./Galaxia.mp4" autoplay muted loop></video>
+        </div>
+
+        <div id="container">
+            <p id="texto">Escolha a data que você gostaria de buscar uma imagem (dia-mês-ano):</p>
+            <input id="procurar" type="date" placeholder="DD-MM-YYYY" required pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}">
+            <input id="busca" type="submit" value="Buscar">
+        </div>
+
+
+        <div id="corpo">
+            <br>
+            <p id="data"></p>
+
+            <iframe id="foto"></iframe>
+            <img id="imagem">
+
+            <p id="tituloImg"></p>
+
+            <p id="credito">Credits: </p>
+            <br>
+            <p id="ApiExplicacao">Explanation: </p>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

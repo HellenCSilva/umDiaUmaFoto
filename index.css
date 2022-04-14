@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Indie+Flower&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+body{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(240, 248, 255, 0.847);
+}
+
+.video video{
+    position: fixed; 
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto; 
+      z-index: -1000;
+      background-size: cover; 
+}
+
+#titulo{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Lobster';
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+    box-shadow: -4px 7px 10px 1px rgb(147, 42, 228);
+}
+
+#sobre{
+    margin-bottom: 20px;
+    line-height: 1.6;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40px;
+    font-family: "Lobster";
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+    box-shadow: -4px 7px 10px 1px rgb(147, 42, 228);
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+    box-shadow: -4px 7px 10px 1px rgb(147, 42, 228);
+    width: 70%;
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+#texto{
+    font-size: 18px;
+    font-family: "Lobster";
+}
+
+#procurar{
+    margin-left: 10px;
+}
+
+#busca:hover{
+    cursor: pointer;
+    transform: scale(1.3, 1.5);
+    background-color: rgb(32, 107, 198);
+}
+
+#busca:active{
+    background-color: rgb(69, 211, 246) ;
+}
+#busca{
+    margin-left: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(147, 42, 228);
+    color: rgb(2, 2, 2);;
+    margin-top: 7px;
+    font-family: "Lobster";
+    font-size: 20px;
+}
+
+#corpo{
+    margin-top: 70px;
+}
+.imgData{
+    margin-bottom:10px;
+}
+
+.nomeImg{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Indie Flower';
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+
+.copyright{
+    margin-bottom:10px;
+}
+
+.imgTexto{
+    text-align: justify;
+    margin: 0 15%;
+    margin-bottom: 3%;
+}
+
+.invisivel{
+    display:none;
+}
+
+#ApiExplicacao{
+    line-height: 1.6;
+}
+
+.image{
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 40%;
+    height: auto;
+}

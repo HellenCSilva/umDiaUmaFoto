@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Indie+Flower&family=Lobster&family=Rubik+Wet+Paint&display=swap');
+
+
+body{
+    text-align: center;
+    font-size: 18px;
+    background-image: url(./galaxiaa.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+#messagem{
+    font-size: 60px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: 'Lobster';
+}
+
+#mensagemError{
+    font-size: 30px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Lobster";
+}
+
+#mensagemError1{
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Lobster";
+    background-color: rgba(127, 26, 160, 0.628);
+}
+
+#retorno{
+    height: 30%;
+    width: 10%;
+    cursor: pointer;
+}
