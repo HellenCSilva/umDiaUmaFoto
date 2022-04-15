@@ -61,6 +61,7 @@ body{
 
 #procurar{
     margin-left: 10px;
+    text-align: center;
 }
 
 #busca:hover{
@@ -121,6 +122,37 @@ body{
 .image{
     border: 2px solid white;
     border-radius: 5px;
-    width: 40%;
+    width: 50%;
     height: auto;
+}
+
+@media (max-width: 425px) {
+    
+    #sobre{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #container{
+        flex-direction:column;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    #procurar{
+        width: 93%;
+    }
+
+    #busca{
+        margin: 5px auto;
+    }
+
+    .image{
+        border: 2px solid white;
+        border-radius: 5px;
+        width: 80%;
+        height: auto;
+    }
 }
